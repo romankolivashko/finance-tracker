@@ -26,5 +26,5 @@ export const useCollection = (collection) => {
 
   }, [collection]);
 
-  return { documants, error }
+  return { documents, error }
 };
