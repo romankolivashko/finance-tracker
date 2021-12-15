@@ -10,7 +10,8 @@ export default function Home() {
     'transactions',
     ['uid',
     '==',
-    user.uid]
+    user.uid], 
+    ["createdAt", "desc"]
     );
 
   return (
