@@ -22,9 +22,7 @@ export default function Home() {
       </div>
       <div className={styles.sidebar}>
         <TransactionForm uid={user.uid}/>
-
       </div>
-      Home
     </div>
   )
 }
