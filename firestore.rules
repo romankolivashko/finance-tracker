@@ -9,7 +9,7 @@ service cloud.firestore {
       allow create: if request.auth != null;
 
       //logged in user uid must attach the document creator to read & delete
-      allow read, delete: if request.auth.uid == resourse.data.uid;
+      allow read, delete: if request.auth.uid == resource.data.uid;
     }
   }
 }
