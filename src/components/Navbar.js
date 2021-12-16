@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div className={styles.navbar}>
       <ul>
-        <li className={styles.title}>Smart Wallet</li>
+        <li className={styles.title}>Smart Money</li>
 
         {!user && (
           <>
