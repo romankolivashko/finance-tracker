@@ -5,7 +5,7 @@ let initialState = {
   document: null,
   isPending: false,
   error: null,
-  successs: null
+  success: null
 }
 
 const firestoreReducer = (state, action) => {
@@ -39,7 +39,7 @@ export const useFirestore = (collection) => {
 
   //add document
   const addDocument = async (doc) => {
-    dispatch({ type: 'IS_PENDING '})
+    dispatch({ type: 'IS_PENDING'})
 
   try {
     const createdAt = timestamp.fromDate(new Date())

@@ -11,14 +11,14 @@ export default function TransactionForm({ uid }) {
     addDocument({
       uid,
       name,
-      amount
+      amount,
     });
   }
 
   useEffect(() => {
     if (response.success) {
-      setName('')
-      setAmount('')
+      setName('');
+      setAmount('');
     }
   }, [response.success])
 
